@@ -1,5 +1,5 @@
 // Predefined password
-const correctPassword = "secret123";
+const correctPassword = "05110618";
 
 // Function to check password and start animations
 function checkPassword() {
@@ -9,7 +9,7 @@ function checkPassword() {
     // Show the cracker animation
     showCrackers();
 
-    // After 5 seconds, show the "I LOVE YOU" message with the heart
+    // After 5 seconds, show the "I LOVE YOU NIDHI!!!" message with the heart
     setTimeout(function() {
       showMessage();
     }, 5000);
