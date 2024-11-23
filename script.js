@@ -9,7 +9,7 @@ function checkPassword() {
     // Show the cracker animation
     showCrackers();
 
-    // After 5 seconds, show the "I LOVE YOU NIDHI!!!" message with the heart
+    // After 5 seconds, show the "I LOVE YOU NIDHI!!" message with the heart
     setTimeout(function() {
       showMessage();
     }, 5000);
@@ -38,7 +38,7 @@ function showCrackers() {
   }, 5000);
 }
 
-// Function to show the "I LOVE YOU NIDHI!!!" message with heart
+// Function to show the "I LOVE YOU NIDHI!!" message with heart
 function showMessage() {
   const message = document.getElementById('message');
   message.classList.add('show-message');

@@ -3,20 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Secret Message</title>
+  <title>Cracker Animation and Message</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <h1>Enter Password</h1>
+    <h1>Enter the Correct Password</h1>
     <input type="password" id="password" placeholder="Enter password">
     <button onclick="checkPassword()">Submit</button>
 
-    <div id="crackers" class="crackers"></div>
+    <!-- Cracker Animation -->
+    <div id="crackers"></div>
 
-    <div id="message" class="message">
+    <!-- Hidden "I LOVE YOU NIDHI!!" Message -->
+    <div id="message">
       <div class="heart">❤️</div>
-      <h2>I LOVE YOU NIDHI!!!</h2>
+      <h2>I LOVE YOU</h2>
     </div>
   </div>
 
