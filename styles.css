@@ -23,7 +23,7 @@ body {
 input {
   padding: 10px;
   font-size: 18px;
-  border: 2px solid #ccc;
+  border: 2px solid red;
   border-radius: 5px;
   margin-bottom: 10px;
 }
@@ -69,35 +69,35 @@ button:hover {
   }
   50% {
     transform: scale(2);
-    opacity: 0.5;
+    opacity: 1;
   }
   100% {
     transform: scale(3);
-    opacity: 0;
+    opacity: 1;
   }
 }
 
 /* The message that will slide in */
 #message {
   display: none;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   bottom: 30%;
-  left: -100%;
+  left: -60%;
   transition: all 1s ease-in-out;
 }
 
 .heart {
-  font-size: 50px;
+  font-size: 100px;
 }
 
 h2 {
-  font-size: 40px;
-  margin-top: 10px;
+  font-size: 120px;
+  margin-top: 40px;
 }
 
 .show-message {
-  left: 50%;
+  left: 60%;
   transform: translateX(-50%);
   opacity: 1;
 }
