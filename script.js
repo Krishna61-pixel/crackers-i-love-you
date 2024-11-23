@@ -38,9 +38,9 @@ function showCrackers() {
   }, 5000);
 }
 
-// Function to show the "I LOVE YOU" message with heart
+// Function to show the "I LOVE YOU NIDHI!!!" message with heart
 function showMessage() {
   const message = document.getElementById('message');
   message.classList.add('show-message');
-  message.style.display = 'block';
+  message.style.display = 'block'; // Make sure it's visible
 }

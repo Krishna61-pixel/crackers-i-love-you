@@ -94,11 +94,6 @@ h2 {
   margin-top: 10px;
 }
 
-.bloom {
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .show-message {
   left: 50%;
   transform: translateX(-50%);
