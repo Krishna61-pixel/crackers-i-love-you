@@ -80,15 +80,15 @@ button:hover {
 /* The message that will slide in */
 #message {
   display: none;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   bottom: 30%;
-  left: -100%;
+  left: 50%;
   transition: all 1s ease-in-out;
 }
 
 .heart {
-  font-size: 50px;
+  font-size: 100px;
 }
 
 h2 {
@@ -98,6 +98,6 @@ h2 {
 
 .show-message {
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(40%);
   opacity: 1;
 }
